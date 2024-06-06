@@ -93,6 +93,21 @@ nav ul li a:hover {
 }
 
 /* Main Section Styles */
+.cover-image {
+    /* Add styles for cover image */
+    width: 100%;
+    height: 300px;
+    background-image: url('images/icon.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+
 .main {
     text-align: center;
     padding: 50px 20px;
