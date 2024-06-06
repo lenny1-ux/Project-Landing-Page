@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Lefarm.com</title>
+    <link rel="stylesheet" href="styles/v1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Lefarm.com</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link to Homepage -->
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+            <a href="#signin">Sign In</a>
+            <a href="#signup">Sign Up</a>
+            <a href="#cart">Cart</a>
+        </div>
+    </header>
+    
+    <!-- Body Section -->
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <!-- Products -->
+                <div class="product">
+                    <h3>Onions</h3>
+                    <p>Price: 80 Kshs/kg</p>
+                    <p>Quantity: 50 kgs</p>
+                    <p>Status: Available</p>
+                    <button onclick="addToCart('Onions', 80)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Kale</h3>
+                    <p>Price: 40 Kshs/kg</p>
+                    <p>Quantity: 30 kgs</p>
+                    <p>Status: Available</p>
+                    <button onclick="addToCart('Kale', 40)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Spinach</h3>
+                    <p>Price: 60 Kshs/kg</p>
+                    <p>Quantity: 20 kgs</p>
+                    <p>Status: Available</p>
+                    <button onclick="addToCart('Spinach', 60)">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>Tomatoes</h3>
+                    <p>Price: 100 Kshs/kg</p>
+                    <p>Quantity: 0 kgs</p>
+                    <p>Status: Out of Stock</p>
+                    <button disabled>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h3>French Beans</h3>
+                    <p>Price: 125 Kshs/kg</p>
+                    <p>Quantity: 10 kgs</p>
+                    <p>Status: Available</p>
+                    <button onclick="addToCart('French Beans', 120)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p> Copy Rights &copy; 2024 Lefarm.com. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+            <a href="https://wa.me/254720165595" target="_blank">WhatsApp</a>
+        </div>
+    </footer>
+</body>
+</html>
