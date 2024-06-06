@@ -108,13 +108,6 @@ nav ul li a:hover {
     font-size: 2rem;
 }
 
-.main {
-    text-align: center;
-    padding: 50px 20px;
-    background: url('path_to_cover_image.jpg') no-repeat center center/cover;
-    color: white;
-}
-
 .main h1 {
     font-size: 48px;
     margin-bottom: 10px;
